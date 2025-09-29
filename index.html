@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VendoTN - Boutique en ligne</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Vendo<span>TN</span></a>
+        <form id="searchForm" class="search">
+          <input id="searchInput" type="search" placeholder="Rechercher un produit..." aria-label="Rechercher" />
+          <button type="submit" aria-label="Rechercher">🔎</button>
+        </form>
+        <nav class="nav">
+          <select id="categorySelect" aria-label="Catégorie">
+            <option value="">Toutes les catégories</option>
+          </select>
+          <a href="cart.html" class="cart-link" aria-label="Panier">
+            🛒 <span id="cartCount" class="cart-count">0</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Les meilleures offres high-tech en Tunisie</h1>
+          <p>Comparez, trouvez et achetez au meilleur prix. Livraison rapide.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="toolbar">
+          <div class="sort">
+            <label for="sortSelect">Trier par:</label>
+            <select id="sortSelect">
+              <option value="pop">Popularité</option>
+              <option value="priceAsc">Prix: du plus bas au plus élevé</option>
+              <option value="priceDesc">Prix: du plus élevé au plus bas</option>
+              <option value="new">Nouveautés</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="productGrid" class="grid"></div>
+
+        <div id="emptyState" class="empty" hidden>
+          <p>Aucun produit trouvé. Essayez une autre recherche.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> VendoTN. un site web tunisian pour les ventes </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
+
+
