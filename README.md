@@ -1,21 +1,40 @@
-# VendoTN — Démo e-commerce (HTML/CSS/JS)
+# 🛍️ Site du Ventes
 
-Une mini boutique inspirée de Tunisianet/Mytek. Frontend pur: HTML, CSS, JavaScript — produits mockés, panier en localStorage.
+🌐 **Live Demo:** [https://yosribozrati.github.io/vente](https://yosribozrati.github.io/vente)  
 
-## Démarrer
-- Ouvrez `index.html` dans votre navigateur.
-- Le panier se synchronise entre `index.html` et `cart.html` via `localStorage`.
+---
 
-## Structure
-- `index.html` — accueil, recherche, filtres, tri, grille produits
-- `cart.html` — panier, quantités, suppression, total
-- `styles.css` — style moderne sombre, responsive
-- `app.js` — rendu produits, recherche/tri, ajout au panier
-- `cart.js` — gestion du panier, récapitulatif
+## 📌 Description
+"**Site du Ventes**" est une **plateforme e-commerce moderne** développée en **HTML, CSS et JavaScript**.  
+Elle offre une **expérience utilisateur fluide**, **responsive**, et **élégante**, idéale pour présenter vos produits en ligne. ✨🛒  
 
-## Personnaliser
-- Mettez vos produits dans `app.js` (tableau `products`).
-- Ajoutez de vraies images et prix TND.
-- Remplacez l'alerte de commande par une intégration réelle (API paiement/checkout).
+---
 
-Licence: MIT (usage éducatif).
+## 🎨 Fonctionnalités
+
+- 🖼️ **Affichage dynamique des produits** : présentation claire et attractive des articles.  
+- 🛒 **Panier interactif** : ajoutez ou retirez des articles en temps réel.  
+- 📱 **Design responsive** : compatible desktop, tablette et mobile.  
+- 🔍 **Filtrage et recherche rapide** : par catégorie ou prix.  
+- ⚡ **Animations modernes** : transitions fluides et design agréable.  
+- 💳 **Préparation au paiement** : interface prête pour intégration futur e-commerce complet.  
+
+---
+
+## ⚙️ Technologies utilisées
+
+- 🌐 **HTML5**  
+- 🎨 **CSS3**  
+- 💻 **JavaScript (Vanilla)**  
+- 🎭 **Font Awesome** pour les icônes  
+
+---
+
+## 🚀 Installation
+
+Clonez ce dépôt et ouvrez le fichier **index.html** dans votre navigateur préféré :
+
+```bash
+git clone https://github.com/yosribozrati/site-du-ventes.git
+cd site-du-ventes
+# Ouvrir index.html dans votre navigateur
